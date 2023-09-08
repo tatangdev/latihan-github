@@ -1,6 +1,6 @@
 // Nama -> nama program
-// Tatang -> penjumlahan
-function penjumlahan(a, b) {
-    return a + b
+// Achmad Fikri Syofian -> Luas Persegi Panjang
+function luasPersegiPanjang(p, l) {
+    return p * l;
 }
-console.log(penjumlahan(1, 2))
+console.log(luasPersegiPanjang(4, 2));
