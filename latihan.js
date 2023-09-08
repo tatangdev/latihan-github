@@ -42,3 +42,16 @@ function kelilingPersegiPanjang(panjang, lebar) {
   return 2 * (panjang + lebar);
 }
 console.log(kelilingPersegiPanjang(5, 2));
+
+
+// Azza Maulana -> menghitung luas layang-layang
+function hitungLuasLayangLayang(d1, d2) {
+  var luasLayangLayang = (d1 * d2) / 2;
+  return luasLayangLayang;
+}
+
+var d1 = 30;
+var d2 = 20;
+
+var luasLayangLayang = hitungLuasLayangLayang(d1, d2);
+console.log('Luas Layang-Layang adalah ' + luasLayangLayang);
