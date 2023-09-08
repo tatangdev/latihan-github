@@ -29,6 +29,18 @@ function hitungVolumeKubus(sisi) {
 }
 console.log(hitungVolumeKubus(5));
 
+var panjangSisi = 5;
+var volumeKubus = hitungVolumeKubus(panjangSisi);
+console.log(
+  "panjang sisi volume kubus " + panjangSisi + " adalah " + volumeKubus
+);
+
+//Ismiazzah Kamilah -> menghitung volume balok
+function hitungVolumeBalok(panjang, lebar, tinggi) {
+  return panjang * lebar * tinggi;
+}
+console.log(hitungVolumeBalok(5, 3, 2));
+
 // Muhammad Taufik Hidayat -> menghitung volume kerucut
 function hitungVolumeKerucut(r, t) {
     return (1 / 3) * 3.14 * r * r * t;
@@ -53,7 +65,23 @@ const hitungVolumeTabung = (jariJari, tinggi) => {
     const PHI = 3.14;
     return PHI * jariJari * jariJari * tinggi;
 };
+
+const volumeTabung = hitungVolumeTabung(5, 10);
+console.log(`volume tabung adalah ${volumeTabung}`);
 console.log(hitungVolumeTabung(5, 10));
+
+// Azza Maulana -> menghitung luas layang-layang
+function hitungLuasLayangLayang(d1, d2) {
+  var luasLayangLayang = (d1 * d2) / 2;
+  return luasLayangLayang;
+}
+
+var d1 = 30;
+var d2 = 20;
+
+var hasilLuas = hitungLuasLayangLayang(d1, d2);
+console.log('Luas Layang-Layang adalah ' + hasilLuas);
+
 
 // Najmul Azka -> luas jajar genjang
 function luasJajarGenjang(alas, tinggi) {
