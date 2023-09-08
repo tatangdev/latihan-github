@@ -70,6 +70,7 @@ const volumeTabung = hitungVolumeTabung(5, 10);
 console.log(`volume tabung adalah ${volumeTabung}`);
 console.log(hitungVolumeTabung(5, 10));
 
+
 // Azza Maulana -> menghitung luas layang-layang
 function hitungLuasLayangLayang(d1, d2) {
   var luasLayangLayang = (d1 * d2) / 2;
@@ -83,14 +84,27 @@ var hasilLuas = hitungLuasLayangLayang(d1, d2);
 console.log('Luas Layang-Layang adalah ' + hasilLuas);
 
 
+//  Dhimas Rizaldy -> Menghitung Luas belah ketupat
+function hitungLuasBelahKetupat(diagonal1, diagonal2) {
+  return 0.5 * diagonal1 * diagonal2;
+}
+const diagonal1 = 20;
+const diagonal2 = 15;
+const luasBelahKetupat = hitungLuasBelahKetupat(diagonal1, diagonal2);
+console.log('Luas Belah Ketupat adalah: ' + luasBelahKetupat);
+// End Dhimas Rizaldy
+
+
 // Najmul Azka -> luas jajar genjang
 function luasJajarGenjang(alas, tinggi) {
     return alas * tinggi;
 }
 console.log(luasJajarGenjang(10, 8));
 
+
 //Najmul Azka -> keliling layang-layang
 function kelilingLayangLayang(sisiPertama, sisiKedua) {
     return 2 * (sisiPertama + sisiKedua);
 }
 console.log(kelilingLayangLayang(4, 6));
+
