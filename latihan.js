@@ -54,3 +54,9 @@ const hitungVolumeTabung = (jariJari, tinggi) => {
     return PHI * jariJari * jariJari * tinggi;
 };
 console.log(hitungVolumeTabung(5, 10));
+
+// Najmul Azka -> luas jajar genjang
+function luasJajarGenjang(alas, tinggi) {
+    return alas * tinggi;
+}
+console.log(luasJajarGenjang(10, 8));
