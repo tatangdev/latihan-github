@@ -16,6 +16,7 @@ console.log(
   "panjang sisi volume kubus " + panjangSisi + " adalah " + volumeKubus
 );
 
+//Niko Muhamad Fajar -> keliling Lingkaran
 function kelilingLingkaran(r){
   let hasil = 2 * 3.14 * r
   return 'Keliling lingkaran adalah ' + hasil
