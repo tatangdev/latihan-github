@@ -56,7 +56,7 @@ const hitungVolumeTabung = (jariJari, tinggi) => {
 
 const volumeTabung = hitungVolumeTabung(5, 10);
 console.log(`volume tabung adalah ${volumeTabung}`);
-
+console.log(hitungVolumeTabung(5, 10));
 
 // Azza Maulana -> menghitung luas layang-layang
 function hitungLuasLayangLayang(d1, d2) {
@@ -70,8 +70,6 @@ var d2 = 20;
 var hasilLuas = hitungLuasLayangLayang(d1, d2);
 console.log('Luas Layang-Layang adalah ' + hasilLuas);
 
-
-console.log(hitungVolumeTabung(5, 10));
 
 // Najmul Azka -> luas jajar genjang
 function luasJajarGenjang(alas, tinggi) {
