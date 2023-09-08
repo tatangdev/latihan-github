@@ -61,7 +61,7 @@ function luasJajarGenjang(alas, tinggi) {
 }
 console.log(luasJajarGenjang(10, 8));
 
-//keliling layang-layang
+//Najmul Azka -> keliling layang-layang
 function kelilingLayangLayang(sisiPertama, sisiKedua) {
     return 2 * (sisiPertama + sisiKedua);
 }
