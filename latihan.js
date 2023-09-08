@@ -15,3 +15,10 @@ var volumeKubus = hitungVolumeKubus(panjangSisi);
 console.log(
   "panjang sisi volume kubus " + panjangSisi + " adalah " + volumeKubus
 );
+
+// Achmad Fahmi Al Hafidz -> menghitung keliling persegi panjang
+function kelilingPersegiPanjang(panjang, lebar){
+  return 2 * (panjang+lebar)
+}
+
+console.log(kelilingPersegiPanjang(5, 2));
