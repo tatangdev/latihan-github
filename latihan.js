@@ -22,3 +22,13 @@ function kelilingPersegiPanjang(panjang, lebar){
 }
 
 console.log(kelilingPersegiPanjang(5, 2));
+
+//  Dhimas Rizaldy -> Menghitung Luas belah ketupat
+function hitungLuasBelahKetupat(diagonal1, diagonal2) {
+  return 0.5 * diagonal1 * diagonal2;
+}
+
+const diagonal1 = 20;
+const diagonal2 = 15;
+const luas = hitungLuasBelahKetupat(diagonal1, diagonal2);
+console.log('Luas Belah Ketupat adalah: ' + luas);
