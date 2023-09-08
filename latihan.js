@@ -60,3 +60,9 @@ function luasJajarGenjang(alas, tinggi) {
     return alas * tinggi;
 }
 console.log(luasJajarGenjang(10, 8));
+
+//keliling layang-layang
+function kelilingLayangLayang(sisiPertama, sisiKedua) {
+    return 2 * (sisiPertama + sisiKedua);
+}
+console.log(kelilingLayangLayang(4, 6));
