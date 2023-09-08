@@ -29,6 +29,18 @@ function hitungVolumeKubus(sisi) {
 }
 console.log(hitungVolumeKubus(5));
 
+var panjangSisi = 5;
+var volumeKubus = hitungVolumeKubus(panjangSisi);
+console.log(
+  "panjang sisi volume kubus " + panjangSisi + " adalah " + volumeKubus
+);
+
+//Ismiazzah Kamilah -> menghitung volume balok
+function hitungVolumeBalok(panjang, lebar, tinggi) {
+  return panjang * lebar * tinggi;
+}
+console.log(hitungVolumeBalok(5, 3, 2));
+
 // Muhammad Taufik Hidayat -> menghitung volume kerucut
 function hitungVolumeKerucut(r, t) {
     return (1 / 3) * 3.14 * r * r * t;
