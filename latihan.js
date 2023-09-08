@@ -5,13 +5,12 @@ function penjumlahan(a, b) {
 }
 console.log(penjumlahan(1, 2));
 
-// Hafid Nur-Keliling jajar genhang
-//
-
+// Hafid Nur-Keliling jajar genjang
 function KjajarGenjang(sisi_satu, sisi_dua) {
   return 2 * (sisi_satu + sisi_dua);
 }
 console.log(KjajarGenjang(10,10))
+
 // Arfin -> Luas Segitiga
 function luasSegitiga(a, b) {
   return 0.5 * a * b;
@@ -22,18 +21,23 @@ console.log(luasSegitiga(5, 10));
 function hitungVolumeKubus(sisi) {
   return sisi * sisi * sisi;
 }
-
 var panjangSisi = 5;
 var volumeKubus = hitungVolumeKubus(panjangSisi);
 console.log(
   "panjang sisi volume kubus " + panjangSisi + " adalah " + volumeKubus
 );
 
+//Niko Muhamad Fajar -> keliling Lingkaran
+function kelilingLingkaran(r) {
+  let hasil = 2 * 3.14 * r
+  return 'Keliling lingkaran adalah ' + hasil
+}
+console.log(kelilingLingkaran(10));
+
 // Achmad Fahmi Al Hafidz -> menghitung keliling persegi panjang
 function kelilingPersegiPanjang(panjang, lebar) {
   return 2 * (panjang + lebar);
 }
-
 console.log(kelilingPersegiPanjang(5, 2));
 
 // Aldi -> luas persegi panjang
