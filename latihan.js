@@ -3,15 +3,21 @@
 function penjumlahan(a, b) {
   return a + b;
 }
-console.log(penjumlahan(1, 2));
+console.log(penjumlahan(1, 2))
+
+
+// Purno -> Volume Limas Persegi
+function volumeLimasPersegi(s, t) {
+    return 1/3*(s**2)*t;
+} 
+console.log(volumeLimasPersegi(5,6));
 
 // Hafid Nur-Keliling jajar genhang
-//
-
 function KjajarGenjang(sisi_satu, sisi_dua) {
   return 2 * (sisi_satu + sisi_dua);
 }
 console.log(KjajarGenjang(10, 10));
+
 // Arfin -> Luas Segitiga
 function luasSegitiga(a, b) {
   return 0.5 * a * b;
