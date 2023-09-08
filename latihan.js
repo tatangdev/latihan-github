@@ -94,3 +94,10 @@ function kelilingLayangLayang(sisiPertama, sisiKedua) {
     return 2 * (sisiPertama + sisiKedua);
 }
 console.log(kelilingLayangLayang(4, 6));
+
+// Afif -> luas persegi
+function luasPersegi(sisi) {
+    return sisi ** 2;
+  }
+  
+  console.log(luasPersegi(5));
