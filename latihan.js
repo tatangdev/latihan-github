@@ -15,3 +15,9 @@ var volumeKubus = hitungVolumeKubus(panjangSisi);
 console.log(
   "panjang sisi volume kubus " + panjangSisi + " adalah " + volumeKubus
 );
+
+// Aldi -> luas persegi panjang
+function luaspersegipanjang(p,l) {
+  return p * l
+}
+console.log(luaspersegipanjang(5,10))
