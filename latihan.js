@@ -5,7 +5,6 @@ function penjumlahan(a, b) {
 }
 console.log(penjumlahan(1, 2))
 
-
 // Purno -> Volume Limas Persegi
 function volumeLimasPersegi(s, t) {
     return 1/3*(s**2)*t;
@@ -56,3 +55,9 @@ const hitungVolumeTabung = (jariJari, tinggi) => {
 };
 const volumeTabung = hitungVolumeTabung(5, 10);
 console.log(`volume tabung adalah ${volumeTabung}`);
+
+// Aldi -> luas persegi panjang
+function luaspersegipanjang(p,l) {
+  return p * l
+}
+console.log(luaspersegipanjang(5,10))
