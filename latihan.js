@@ -1,17 +1,21 @@
 // Nama -> nama program
 // Tatang -> penjumlahan
 function penjumlahan(a, b) {
-  return a + b;
+    return a + b;
 }
 console.log(penjumlahan(1, 2));
 
 //Muhammad Al Imran -> menghitung volume kubus
 function hitungVolumeKubus(sisi) {
-  return sisi * sisi * sisi;
+    return sisi * sisi * sisi;
 }
 
 var panjangSisi = 5;
 var volumeKubus = hitungVolumeKubus(panjangSisi);
-console.log(
-  "panjang sisi volume kubus " + panjangSisi + " adalah " + volumeKubus
-);
+console.log('panjang sisi volume kubus ' + panjangSisi + ' adalah ' + volumeKubus);
+
+//Najmul Azka -> menghitung luas jajar genjang
+function hitungLuasJajarGenjang(alas, tinggi) {
+    return alas * tinggi;
+}
+console.log(hitungLuasJajarGenjang(15, 13));
