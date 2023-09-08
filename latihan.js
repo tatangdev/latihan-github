@@ -65,7 +65,23 @@ const hitungVolumeTabung = (jariJari, tinggi) => {
     const PHI = 3.14;
     return PHI * jariJari * jariJari * tinggi;
 };
+
+const volumeTabung = hitungVolumeTabung(5, 10);
+console.log(`volume tabung adalah ${volumeTabung}`);
 console.log(hitungVolumeTabung(5, 10));
+
+// Azza Maulana -> menghitung luas layang-layang
+function hitungLuasLayangLayang(d1, d2) {
+  var luasLayangLayang = (d1 * d2) / 2;
+  return luasLayangLayang;
+}
+
+var d1 = 30;
+var d2 = 20;
+
+var hasilLuas = hitungLuasLayangLayang(d1, d2);
+console.log('Luas Layang-Layang adalah ' + hasilLuas);
+
 
 // Najmul Azka -> luas jajar genjang
 function luasJajarGenjang(alas, tinggi) {
