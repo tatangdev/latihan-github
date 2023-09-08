@@ -1,0 +1,25 @@
+1. Afif -> luas persegi
+2. Ahmad -> luas persegi panjang
+3. Annisa  -> luas lingkaran
+4. Arfin -> luas segitiga
+5. Asep -> luas trapesium
+6. Azka -> luas jajar genjang
+7. Azza -> luas layang-layang
+8. Dimas -> luas belah ketupat
+9. Dio -> keliling persegi
+10. Fahmi -> keliling persegi panjang
+11. Fajar -> keliling lingkaran
+12. Faqi -> keliling segitiga
+13. Faza -> keliling trapesium
+14. Hafid -> keliling jajar genjang
+15. imran -> volume kubus
+16. Ismia -> volume balok
+17. Jeni -> volume limas
+18. Luthfi -> volume tabung
+19. Nurul -> volume prisma
+20. Pikri -> volume prisma segilima
+21. Purno -> volume limas persegi
+22. Putri -> volume limas persegi lima
+23. Rian -> volume limas segitiga
+24. Shera -> volume bola
+25. Taufik -> volume kerucut
