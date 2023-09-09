@@ -99,3 +99,9 @@ function volumeBola(jariJari) {
     return volume;
 }
 console.log(volumeBola(10));
+
+// Nurul -> Fungsi Volume Prisma
+function volumePrisma(luasAlas, tinggi) {
+    return luasAlas * tinggi;
+}
+console.log(volumePrisma(20, 5));
