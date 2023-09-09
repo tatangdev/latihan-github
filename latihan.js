@@ -29,15 +29,9 @@ function hitungVolumeKubus(sisi) {
 }
 console.log(hitungVolumeKubus(5));
 
-var panjangSisi = 5;
-var volumeKubus = hitungVolumeKubus(panjangSisi);
-console.log(
-  "panjang sisi volume kubus " + panjangSisi + " adalah " + volumeKubus
-);
-
 //Ismiazzah Kamilah -> menghitung volume balok
 function hitungVolumeBalok(panjang, lebar, tinggi) {
-  return panjang * lebar * tinggi;
+    return panjang * lebar * tinggi;
 }
 console.log(hitungVolumeBalok(5, 3, 2));
 
@@ -65,23 +59,14 @@ const hitungVolumeTabung = (jariJari, tinggi) => {
     const PHI = 3.14;
     return PHI * jariJari * jariJari * tinggi;
 };
-
-const volumeTabung = hitungVolumeTabung(5, 10);
-console.log(`volume tabung adalah ${volumeTabung}`);
 console.log(hitungVolumeTabung(5, 10));
 
 // Azza Maulana -> menghitung luas layang-layang
 function hitungLuasLayangLayang(d1, d2) {
-  var luasLayangLayang = (d1 * d2) / 2;
-  return luasLayangLayang;
+    var luasLayangLayang = (d1 * d2) / 2;
+    return luasLayangLayang;
 }
-
-var d1 = 30;
-var d2 = 20;
-
-var hasilLuas = hitungLuasLayangLayang(d1, d2);
-console.log('Luas Layang-Layang adalah ' + hasilLuas);
-
+console.log(hitungLuasLayangLayang(30, 20));
 
 // Najmul Azka -> luas jajar genjang
 function luasJajarGenjang(alas, tinggi) {
@@ -98,6 +83,11 @@ console.log(kelilingLayangLayang(4, 6));
 // Afif -> luas persegi
 function luasPersegi(sisi) {
     return sisi ** 2;
-  }
-  
-  console.log(luasPersegi(5));
+}
+console.log(luasPersegi(5));
+
+// Achmad Fikri Syofian -> Luas Persegi Panjang
+function luasPersegiPanjang(p, l) {
+    return p * l;
+}
+console.log(luasPersegiPanjang(4, 2));
