@@ -91,3 +91,11 @@ function luasPersegiPanjang(p, l) {
     return p * l;
 }
 console.log(luasPersegiPanjang(4, 2));
+
+//Shera Alice Ayutri -> menghitung volume bola
+function volumeBola(jariJari) {
+    const pi = 3.14;
+    const volume = (4 / 3) * pi * jariJari ** 3;
+    return volume;
+}
+console.log(volumeBola(10));
